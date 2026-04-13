@@ -4,7 +4,7 @@
  */
 
 import { useState } from 'react';
-import { useAuthStore } from '../store/authStore';
+import { useAuthStore } from '../store/XStore';
 import { apiClient } from '../utils/apiClient';
 import { API_ENDPOINTS } from '../config/api';
 

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Plus, Eye, Star, DollarSign } from 'lucide-react';
 import { useIdeaStore } from '../store/ideaStore';
-import { useAuthStore } from '../store/authStore';
+import { useAuthStore } from '../store/XStore';
 import IdeaCard from '../components/IdeaCard';
 
 export default function Dashboard() {

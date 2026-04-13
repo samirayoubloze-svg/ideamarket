@@ -3,7 +3,7 @@
  * Handles all API requests with authentication, error handling, and retries
  */
 
-import { useAuthStore } from '../store/authStore';
+import { useAuthStore } from '../store/XStore';
 import { getAuthHeader } from '../config/api';
 
 export interface ApiResponse<T> {

@@ -2,7 +2,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { Star, MessageSquare, ShoppingCart, Edit2, Trash2, Eye, ArrowLeft } from 'lucide-react';
 import { useState } from 'react';
 import { useIdeaStore, Rating } from '../store/ideaStore';
-import { useAuthStore } from '../store/authStore';
+import { useAuthStore } from '../store/XStore';
 
 export default function IdeaDetail() {
   const { id } = useParams<{ id: string }>();

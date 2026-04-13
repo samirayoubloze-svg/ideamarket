@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import { useIdeaStore, Idea } from '../store/ideaStore';
-import { useAuthStore } from '../store/authStore';
+import { useAuthStore } from '../store/XStore';
 import { ArrowLeft } from 'lucide-react';
 
 export default function AddIdea() {
