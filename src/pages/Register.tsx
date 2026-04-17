@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { Mail, Lock, User, ArrowRight } from 'lucide-react';
-import { useAuthStore } from '../store/XStore';
+import { useAuthStore } from '../store/authStore';
 
 export default function Register() {
   const navigate = useNavigate();

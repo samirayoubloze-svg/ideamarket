@@ -1,7 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { Lightbulb, LogOut, Menu, X, Plus } from 'lucide-react';
 import { useState } from 'react';
-import { useAuthStore } from '../store/XStore';
+import { useAuthStore } from '../store/authStore';
 
 export default function Navigation() {
   const user = useAuthStore((state) => state.user);

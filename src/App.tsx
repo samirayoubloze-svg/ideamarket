@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import { useAuthStore } from './store/XStore';
+import { useAuthStore } from './store/authStore';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -12,7 +12,7 @@ import Register from './pages/Register';
 import Profile from './pages/Profile';
 
 function App() {
-  const user = useAuthStore((state) => state.user);
+  const user = useAuthStore((state: any) => state.user);
 
   return (
     <Router>
